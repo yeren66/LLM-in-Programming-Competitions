@@ -1,0 +1,55 @@
+362-C
+
+#include <iostream>
+#include <vector>
+#include <tuple>
+
+using namespace std;
+
+int main() {
+    int N;
+    cin >> N;
+    vector<pair<int, int>> ranges(N);
+    int min_sum = 0, max_sum = 0;
+    
+    for (int i = 0; i < N; ++i) {
+        int L, R;
+        cin >> L >> R;
+        ranges[i] = {L, R};
+        min_sum += L;
+        max_sum += R;
+    }
+    
+    if (min_sum > 0 || max_sum < 0) {
+        cout << "No" << endl;
+        return 0;
+    }
+    
+    cout << "Yes" << endl;
+    int target_sum = 0;
+    vector<int> result(N);
+    
+    for (int i = 0; i < N; ++i) {
+        result[i] = ranges[i].first;
+        target_sum += ranges[i].first;
+    }
+    
+    for (int i = 0; i < N && target_sum < 0; ++i) {
+        int add = min(ranges[i].second - ranges[i].first, -target_sum);
+        result[i] += add;
+        target_sum += add;
+    }
+    
+    for (int i = 0; i < N && target_sum > 0; ++i) {
+        int subtract = min(result[i] - ranges[i].first, target_sum);
+        result[i] -= subtract;
+        target_sum -= subtract;
+    }
+    
+    for (int x : result) {
+        cout << x << " ";
+    }
+    cout << endl;
+    
+    return 0;
+}

@@ -2,24 +2,61 @@
 
 Calculate: Runable / Pass (Number)
 
-### Init_prompt 1: (w/o I/O sample)
+### Each Problem preformance(w/o I/O sample)
 
-| LLM        | Direct (English) | Iteration (English) | Direct (Chinese) | Iteration (Chinese) | Total |
-|------------|------------------|---------------------|------------------|---------------------|-------|
-| GPT        |                  |                     |                  |                     |       |
-| Claude     |                  |                     |                  |                     |       |
-| Gemini     |                  |                     |                  |                     |       |
-| qwen       |                  |                     |                  |                     |       |
-| yiyan      |                  |                     |                  |                     |       |
-| sparkai    |                  |                     |                  |                     |       |
+| LLM  | GPT | Claude | Gemini | qwen | yiiyan | sparkai |
+|------|-----|--------|--------|------|--------|---------|
+| En-1 |     |        |        |      |        |         |
+| En-2 |     |        |        |      |        |         |
+| En-3 |     |        |        |      |        |         |
+| En-4 |     |        |        |      |        |         |
+| En-5 |     |        |        |      |        |         |
+| Ch-1 |     |        |        |      |        |         |
+| Ch-2 |     |        |        |      |        |         |
+| Ch-3 |     |        |        |      |        |         |
+| Ch-4 |     |        |        |      |        |         |
+| Ch-5 |     |        |        |      |        |         |
 
-### Init_prompt 2: (complete)
 
-| LLM        | Direct (English) | Iteration (English) | Direct (Chinese) | Iteration (Chinese) | Total |
-|------------|------------------|---------------------|------------------|---------------------|-------|
-| GPT        |                  |                     |                  |                     |       |
-| Claude     |                  |                     |                  |                     |       |
-| Gemini     |                  |                     |                  |                     |       |
-| qwen       |                  |                     |                  |                     |       |
-| yiyan      |                  |                     |                  |                     |       |
-| sparkai    |                  |                     |                  |                     |       |
+### After Iteration 1
+| LLM  | GPT | Claude | Gemini | qwen | yiiyan | sparkai |
+|------|-----|--------|--------|------|--------|---------|
+| En-1 |     |        |        |      |        |         |
+| En-2 |     |        |        |      |        |         |
+| En-3 |     |        |        |      |        |         |
+| En-4 |     |        |        |      |        |         |
+| En-5 |     |        |        |      |        |         |
+| Ch-1 |     |        |        |      |        |         |
+| Ch-2 |     |        |        |      |        |         |
+| Ch-3 |     |        |        |      |        |         |
+| Ch-4 |     |        |        |      |        |         |
+| Ch-5 |     |        |        |      |        |         |
+
+### Each Problem preformance(complete)
+
+| LLM  | GPT | Claude | Gemini | qwen | yiiyan | sparkai |
+|------|-----|--------|--------|------|--------|---------|
+| En-1 |     |        |        |      |        |         |
+| En-2 |     |        |        |      |        |         |
+| En-3 |     |        |        |      |        |         |
+| En-4 |     |        |        |      |        |         |
+| En-5 |     |        |        |      |        |         |
+| Ch-1 |     |        |        |      |        |         |
+| Ch-2 |     |        |        |      |        |         |
+| Ch-3 |     |        |        |      |        |         |
+| Ch-4 |     |        |        |      |        |         |
+| Ch-5 |     |        |        |      |        |         |
+
+### After Iteration 2
+| LLM  | GPT | Claude | Gemini | qwen | yiiyan | sparkai |
+|------|-----|--------|--------|------|--------|---------|
+| En-1 |     |        |        |      |        |         |
+| En-2 |     |        |        |      |        |         |
+| En-3 |     |        |        |      |        |         |
+| En-4 |     |        |        |      |        |         |
+| En-5 |     |        |        |      |        |         |
+| Ch-1 |     |        |        |      |        |         |
+| Ch-2 |     |        |        |      |        |         |
+| Ch-3 |     |        |        |      |        |         |
+| Ch-4 |     |        |        |      |        |         |
+| Ch-5 |     |        |        |      |        |         |
